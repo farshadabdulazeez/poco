@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.heading{
+    background:#161616;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 65px;
+    
+}
+.img1{
+    height: 65px;
+    float: left;
+}
+.entry{
+    display: flex;
+    float: left;
+    padding-left:50px ;
+    color: #fff;
+    margin: 0;
+}
+.topright{
+    display: flex;
+    float: right;
+    padding-right: 20px;
+    color: #fff;
+    margin: 0;
+
+}
+.items{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    background-image: url(image/poco2.jpg);
+    column-gap: 20px;
+    
+}
+.item{
+    font-weight: bold;
+    color: #fff;
+}
+.sub-main{
+    width: 100%;
+    height: 230px;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    column-gap: 15px;
+}
+.videos{
+    font-weight: 800PX;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    width: 100%;
+    height: 130px;
+    font-family: sans-serif;
+    font-size: 30PX;
+}
+.section-videos{
+    width: 100%;
+    height: 350px;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+}
+.pic-1{
+    height: 230px;
+    width: 400px;
+}
+.footer-1{
+    width: 100%;
+    height: 100px;
+    background-color: #161718;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   color: #fff;
+}
+.left1{
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+    height: 40px;
+}
+.email{
+    height: 32px;
+}
+.left h5{
+    margin: 0;
+}
+.right1{
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+    height: 40px;
+}
+.right h5{
+    margin: 0;
+}
+.footer2 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    color: #ffffff8c;
+    background-color: black;
+    
+}
+.footer2 li{
+    list-style: none;
+    cursor: pointer;
+    line-height: 1.8;
+}
+.footer2 li b{
+    color: #fff;
+}
+
